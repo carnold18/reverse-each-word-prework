@@ -7,5 +7,6 @@ def reverse_each_word(string)
 end
 
 def reverse_each_word(string)
-  array = string
+  array = string.split
+  array.collect { ||
 end
